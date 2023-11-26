@@ -8,6 +8,9 @@
   We need to create about folder and file with name: page.tsx
 
 Folder structure
+
 ![create about page](image.png)
+
 about/page.tsx
+
 ![about/page.tsx](image-1.png)
