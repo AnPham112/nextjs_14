@@ -38,8 +38,21 @@ To create review detail page of a product 1
 
 products/1/reivews/3
 
-![Alt text](image-3.png)
+![nested route structure](image-3.png)
 
-then we create reviews and reviewId inside
+Then we create reviews and reviewId inside
 
 In the last level of nested route, we can receive all parameters of url path
+
+## Route group
+
+![Route group](image-4.png)
+
+With this structure, we don't need to add auth route in url path
+
+To view login page
+http://localhost:3000/login
+To view forgot password page
+http://localhost:3000/forgot-password
+To view forgot register page
+http://localhost:3000/register
