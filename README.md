@@ -31,3 +31,15 @@ if we name dynamic routes as id, we can get
 if we name dynamic routes as slug, we can get
 
     const slug = params.slug
+
+## Dynamic nested route
+
+To create review detail page of a product 1
+
+products/1/reivews/3
+
+![Alt text](image-3.png)
+
+then we create reviews and reviewId inside
+
+In the last level of nested route, we can receive all parameters of url path
