@@ -74,3 +74,13 @@ With nested route we can receive children and params, which is helpful for creat
 Layout for product detail page
 
 ![Layout for product detail page](image-7.png)
+
+## Metadata for layout and page
+
+### Metadata for layout
+
+![Alt text](image-8.png)
+
+### Metadata for page
+
+![Alt text](image-9.png)
