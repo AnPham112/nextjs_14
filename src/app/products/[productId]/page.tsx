@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Link from "next/link";
 
 const fetchProductById = async (id: string) => {
   const res = await fetch(`https://jsonplaceholder.typicode.com/todos/${id}`);
@@ -17,7 +18,9 @@ function Product({params}: Props) {
   const { productId } = params;
 
   return (
-    <div>Product {productId}</div>
+    <>
+     <div>Product {productId}</div>
+    </>
   )
 }
 

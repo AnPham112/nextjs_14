@@ -84,3 +84,11 @@ Layout for product detail page
 ### Metadata for page
 
 ![Alt text](image-9.png)
+
+## Link component navigation
+
+Using Link to add new route url path
+
+Link's operating mechanism is similar to Stack (Last in first out)
+
+if we add replace property for Link tag, it will replace the current history state instead of adding a new URL to the stack
