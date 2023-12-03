@@ -5,10 +5,7 @@ export const metadata = {
 
 export default function RootLayout({
   children, params
-}: {
-  children: React.ReactNode,
-  params: ProductDetailParams
-}) {
+}: Props) {
   return (
     <>
       {children}
@@ -17,6 +14,9 @@ export default function RootLayout({
   )
 }
 
-type ProductDetailParams = {
-  productId: string
+type Props = {
+  children: React.ReactNode,
+  params: {
+    productId:string
+  }
 }
