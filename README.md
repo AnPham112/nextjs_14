@@ -52,7 +52,25 @@ With this structure, we don't need to add auth route in url path
 
 To view login page
 http://localhost:3000/login
+
 To view forgot password page
 http://localhost:3000/forgot-password
+
 To view forgot register page
 http://localhost:3000/register
+
+## Layouts
+
+A layout is UI that is shared between multiple pages in the app
+
+![Layout](image-5.png)
+
+![Render Layout](image-6.png)
+
+## Nested Layout
+
+With nested route we can receive children and params, which is helpful for creating sidebar
+
+Layout for product detail page
+
+![Layout for product detail page](image-7.png)
